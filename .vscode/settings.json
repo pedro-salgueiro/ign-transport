@@ -1,0 +1,10 @@
+{
+    "cmake.configureOnOpen": false,
+    "cmake.configureSettings": {
+        "CMAKE_INSTALL_PREFIX": "C:/gz/install/${buildType}", 
+        "CMAKE_TOOLCHAIN_FILE":"C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "CMAKE_BUILD_TYPE": "${buildType}",
+        "BUILD_TESTING": false
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}
